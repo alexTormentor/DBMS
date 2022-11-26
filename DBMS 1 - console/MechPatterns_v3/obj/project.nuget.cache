@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bHtZ45EnEbPPwIqj59ziceB0spg6X6kwnRXU92s2/0yFNRus3vo26TNLMt1sdd8g3BhEIBca7ITp/E03JCTI4A==",
+  "dgSpecHash": "7cmmMQhthnpNw07pvpXGEfaBZzAGsZft2iw3qIMIPEYDy+nVwyy4CaqQUBy47BxhZpCyJhrAB6LMWnS3KV3hXQ==",
   "success": true,
-  "projectFilePath": "D:\\FileSet\\GitLabs\\DBMS\\MechPatterns_v3\\MechPatterns_v3.csproj",
+  "projectFilePath": "D:\\FileSet\\GitLabs\\DBMS\\DBMS 1 - console\\MechPatterns_v3\\MechPatterns_v3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alex\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Alex\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
