@@ -24,5 +24,10 @@ namespace DB_test
             cnn.Close();
             dataGridView1.DataSource = dq.Tables[0];
         }
+
+        private void FormTransact_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

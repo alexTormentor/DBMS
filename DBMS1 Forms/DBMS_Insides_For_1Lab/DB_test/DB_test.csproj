@@ -71,12 +71,6 @@
     <Compile Include="FormMenu.Designer.cs">
       <DependentUpon>FormMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormOder.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormOder.Designer.cs">
-      <DependentUpon>FormOder.cs</DependentUpon>
-    </Compile>
     <Compile Include="FormPeople.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,20 +89,11 @@
     <Compile Include="Procedure.Designer.cs">
       <DependentUpon>Procedure.cs</DependentUpon>
     </Compile>
-    <Compile Include="ProductsForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ProductsForm.Designer.cs">
-      <DependentUpon>ProductsForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestDb.cs" />
     <EmbeddedResource Include="FormMenu.resx">
       <DependentUpon>FormMenu.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormOder.resx">
-      <DependentUpon>FormOder.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormPeople.resx">
       <DependentUpon>FormPeople.cs</DependentUpon>
@@ -118,9 +103,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Procedure.resx">
       <DependentUpon>Procedure.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ProductsForm.resx">
-      <DependentUpon>ProductsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

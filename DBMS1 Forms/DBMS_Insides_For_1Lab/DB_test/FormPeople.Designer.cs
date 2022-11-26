@@ -43,13 +43,13 @@
             this.gridMech.Location = new System.Drawing.Point(12, 12);
             this.gridMech.Name = "gridMech";
             this.gridMech.RowHeadersWidth = 51;
-            this.gridMech.Size = new System.Drawing.Size(357, 154);
+            this.gridMech.Size = new System.Drawing.Size(570, 231);
             this.gridMech.TabIndex = 0;
             // 
             // btnAdd
             // 
             this.btnAdd.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnAdd.Location = new System.Drawing.Point(12, 185);
+            this.btnAdd.Location = new System.Drawing.Point(12, 262);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(75, 23);
             this.btnAdd.TabIndex = 1;
@@ -60,7 +60,7 @@
             // btnDelete
             // 
             this.btnDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnDelete.Location = new System.Drawing.Point(93, 185);
+            this.btnDelete.Location = new System.Drawing.Point(93, 262);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(75, 23);
             this.btnDelete.TabIndex = 2;
@@ -72,7 +72,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(381, 220);
+            this.ClientSize = new System.Drawing.Size(594, 297);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.gridMech);

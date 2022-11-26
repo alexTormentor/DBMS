@@ -27,16 +27,6 @@ namespace DB_test
             (new FormPeople(db)).Show();
         }
 
-        private void btnCore_Click(object sender, EventArgs e)
-        {
-            (new ProductsForm(db)).Show();
-        }
-
-        private void btnChassis_Click(object sender, EventArgs e)
-        {
-            (new FormOder(db)).Show();
-        }
-
         private void transact(object sender, EventArgs e)
         {
             (new FormTransact()).Show();
