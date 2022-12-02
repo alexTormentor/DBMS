@@ -1,0 +1,13 @@
+D:\FileSet\GitLabs\DBMS\CodeFirst\DataBaseFirst\bin\Debug\DataBaseFirst.exe.config
+D:\FileSet\GitLabs\DBMS\CodeFirst\DataBaseFirst\bin\Debug\DataBaseFirst.exe
+D:\FileSet\GitLabs\DBMS\CodeFirst\DataBaseFirst\bin\Debug\DataBaseFirst.pdb
+D:\FileSet\GitLabs\DBMS\CodeFirst\DataBaseFirst\bin\Debug\EntityFramework.dll
+D:\FileSet\GitLabs\DBMS\CodeFirst\DataBaseFirst\bin\Debug\EntityFramework.SqlServer.dll
+D:\FileSet\GitLabs\DBMS\CodeFirst\DataBaseFirst\bin\Debug\EntityFramework.xml
+D:\FileSet\GitLabs\DBMS\CodeFirst\DataBaseFirst\bin\Debug\EntityFramework.SqlServer.xml
+D:\FileSet\GitLabs\DBMS\CodeFirst\DataBaseFirst\bin\Debug\ru\EntityFramework.resources.dll
+D:\FileSet\GitLabs\DBMS\CodeFirst\DataBaseFirst\obj\Debug\DataBaseFirst.csproj.AssemblyReference.cache
+D:\FileSet\GitLabs\DBMS\CodeFirst\DataBaseFirst\obj\Debug\DataBaseFirst.csproj.CoreCompileInputs.cache
+D:\FileSet\GitLabs\DBMS\CodeFirst\DataBaseFirst\obj\Debug\DataBaseFirst.csproj.CopyComplete
+D:\FileSet\GitLabs\DBMS\CodeFirst\DataBaseFirst\obj\Debug\DataBaseFirst.exe
+D:\FileSet\GitLabs\DBMS\CodeFirst\DataBaseFirst\obj\Debug\DataBaseFirst.pdb

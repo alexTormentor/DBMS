@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище Lab1ModelContainer" CdmEntityContainer="Lab1Entities">
+    <EntitySetMapping Name="Mechas">
+      <EntityTypeMapping TypeName="Lab1Model.Mecha">
+        <MappingFragment StoreEntitySet="Mecha">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Model" ColumnName="Model" />
+          <ScalarProperty Name="ArmoreType" ColumnName="ArmoreType" />
+          <ScalarProperty Name="WeaponType" ColumnName="WeaponType" />
+          <ScalarProperty Name="EngineType" ColumnName="EngineType" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="SerialID" ColumnName="SerialID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

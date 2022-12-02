@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище Lab1Model" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Ошибки, обнаруженные при создании:
+предупреждение 6002: В таблице или представлении "Lab1.dbo.Mecha" не определен первичный ключ. Ключ был выведен, а определение таблицы или представления было создано в режиме только для чтения.-->
+  <EntityType Name="Mecha">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Model" Type="varchar" MaxLength="50" />
+    <Property Name="ArmoreType" Type="varchar" MaxLength="50" />
+    <Property Name="WeaponType" Type="varchar" MaxLength="50" />
+    <Property Name="EngineType" Type="varchar" MaxLength="50" />
+    <Property Name="Type" Type="varchar" MaxLength="50" />
+    <Property Name="SerialID" Type="int" />
+  </EntityType>
+  <EntityContainer Name="Хранилище Lab1ModelContainer">
+    <EntitySet Name="Mecha" EntityType="Self.Mecha" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Mecha].[ID] AS [ID], 
+    [Mecha].[Model] AS [Model], 
+    [Mecha].[ArmoreType] AS [ArmoreType], 
+    [Mecha].[WeaponType] AS [WeaponType], 
+    [Mecha].[EngineType] AS [EngineType], 
+    [Mecha].[Type] AS [Type], 
+    [Mecha].[SerialID] AS [SerialID]
+    FROM [dbo].[Mecha] AS [Mecha]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,12 @@
+D:\FileSet\GitLabs\DBMS\CodeFirst\CodeFirstMech_v2\bin\Debug\CodeFirstMech_v2.exe.config
+D:\FileSet\GitLabs\DBMS\CodeFirst\CodeFirstMech_v2\bin\Debug\CodeFirstMech_v2.exe
+D:\FileSet\GitLabs\DBMS\CodeFirst\CodeFirstMech_v2\bin\Debug\CodeFirstMech_v2.pdb
+D:\FileSet\GitLabs\DBMS\CodeFirst\CodeFirstMech_v2\bin\Debug\EntityFramework.dll
+D:\FileSet\GitLabs\DBMS\CodeFirst\CodeFirstMech_v2\bin\Debug\EntityFramework.SqlServer.dll
+D:\FileSet\GitLabs\DBMS\CodeFirst\CodeFirstMech_v2\bin\Debug\EntityFramework.xml
+D:\FileSet\GitLabs\DBMS\CodeFirst\CodeFirstMech_v2\bin\Debug\EntityFramework.SqlServer.xml
+D:\FileSet\GitLabs\DBMS\CodeFirst\CodeFirstMech_v2\obj\Debug\CodeFirstMech_v2.csproj.AssemblyReference.cache
+D:\FileSet\GitLabs\DBMS\CodeFirst\CodeFirstMech_v2\obj\Debug\CodeFirstMech_v2.csproj.CoreCompileInputs.cache
+D:\FileSet\GitLabs\DBMS\CodeFirst\CodeFirstMech_v2\obj\Debug\CodeFirstMech_v2.csproj.CopyComplete
+D:\FileSet\GitLabs\DBMS\CodeFirst\CodeFirstMech_v2\obj\Debug\CodeFirstMech_v2.exe
+D:\FileSet\GitLabs\DBMS\CodeFirst\CodeFirstMech_v2\obj\Debug\CodeFirstMech_v2.pdb
