@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Lab1Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Core2">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MechSystem" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Power" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Corpus">
+    <Key>
+      <PropertyRef Name="CorpusID" />
+    </Key>
+    <Property Name="CorpusID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Model" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ArmoreType" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="WeaponType" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="EngineType" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Type" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SerialID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Mecha">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Model" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ArmoreType" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="WeaponType" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="EngineType" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Type" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SerialID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Table2">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SecondName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="phone" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="Lab1Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Core2" EntityType="Self.Core2" />
+    <EntitySet Name="Corpora" EntityType="Self.Corpus" />
+    <EntitySet Name="Mechas" EntityType="Self.Mecha" />
+    <EntitySet Name="Table2" EntityType="Self.Table2" />
+  </EntityContainer>
+</Schema>

@@ -22,8 +22,24 @@ namespace CodeFirstMech_v2
                     Insert(db, mech);
                 }
                 else if (chose == 2) ReadDB(db);
+                else DBFirst();
             }
+
             Console.Read();
+        }
+
+        private static void DBFirst()
+        {
+            using (Lab1Entities db = new Lab1Entities())
+            {
+                var mechas = db.Mechas;
+                foreach (Mecha mech in mechas)
+                {
+                    Console.WriteLine("{0}.{1}\t{2}\t{3}\t\t{4}\t{5}\t{6}", mech.ID, mech.Model, mech.ArmoreType, mech.WeaponType,
+                        mech.EngineType, mech.Type, mech.SerialID);
+                }
+                Console.ReadLine();
+            }
         }
 
         private static void ReadDB(MechDB db)
@@ -67,5 +83,7 @@ namespace CodeFirstMech_v2
             int serial = Convert.ToInt32(Console.ReadLine());
             mech = new Mech { Model = model, Armore = armore, Weapon = weapon, Engine = engine, Type = type, SerialID = serial };
         }
+
+
     }
 }

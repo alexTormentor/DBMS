@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище Lab1ModelContainer" CdmEntityContainer="Lab1Entities">
+    <EntitySetMapping Name="Core2">
+      <EntityTypeMapping TypeName="Lab1Model.Core2">
+        <MappingFragment StoreEntitySet="Core2">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="MechSystem" ColumnName="MechSystem" />
+          <ScalarProperty Name="Power" ColumnName="Power" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Corpora">
+      <EntityTypeMapping TypeName="Lab1Model.Corpus">
+        <MappingFragment StoreEntitySet="Corpus">
+          <ScalarProperty Name="CorpusID" ColumnName="CorpusID" />
+          <ScalarProperty Name="Model" ColumnName="Model" />
+          <ScalarProperty Name="ArmoreType" ColumnName="ArmoreType" />
+          <ScalarProperty Name="WeaponType" ColumnName="WeaponType" />
+          <ScalarProperty Name="EngineType" ColumnName="EngineType" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="SerialID" ColumnName="SerialID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Mechas">
+      <EntityTypeMapping TypeName="Lab1Model.Mecha">
+        <MappingFragment StoreEntitySet="Mecha">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Model" ColumnName="Model" />
+          <ScalarProperty Name="ArmoreType" ColumnName="ArmoreType" />
+          <ScalarProperty Name="WeaponType" ColumnName="WeaponType" />
+          <ScalarProperty Name="EngineType" ColumnName="EngineType" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="SerialID" ColumnName="SerialID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Table2">
+      <EntityTypeMapping TypeName="Lab1Model.Table2">
+        <MappingFragment StoreEntitySet="Table2">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="SecondName" ColumnName="SecondName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

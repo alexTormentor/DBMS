@@ -1,0 +1,14 @@
+D:\FileSet\GitLabs\DBMS\CodeFirst\DBFirst\bin\Debug\netcoreapp3.1\DBFirst.exe
+D:\FileSet\GitLabs\DBMS\CodeFirst\DBFirst\bin\Debug\netcoreapp3.1\DBFirst.deps.json
+D:\FileSet\GitLabs\DBMS\CodeFirst\DBFirst\bin\Debug\netcoreapp3.1\DBFirst.runtimeconfig.json
+D:\FileSet\GitLabs\DBMS\CodeFirst\DBFirst\bin\Debug\netcoreapp3.1\DBFirst.runtimeconfig.dev.json
+D:\FileSet\GitLabs\DBMS\CodeFirst\DBFirst\bin\Debug\netcoreapp3.1\DBFirst.dll
+D:\FileSet\GitLabs\DBMS\CodeFirst\DBFirst\bin\Debug\netcoreapp3.1\DBFirst.pdb
+D:\FileSet\GitLabs\DBMS\CodeFirst\DBFirst\obj\Debug\netcoreapp3.1\DBFirst.csproj.AssemblyReference.cache
+D:\FileSet\GitLabs\DBMS\CodeFirst\DBFirst\obj\Debug\netcoreapp3.1\DBFirst.GeneratedMSBuildEditorConfig.editorconfig
+D:\FileSet\GitLabs\DBMS\CodeFirst\DBFirst\obj\Debug\netcoreapp3.1\DBFirst.AssemblyInfoInputs.cache
+D:\FileSet\GitLabs\DBMS\CodeFirst\DBFirst\obj\Debug\netcoreapp3.1\DBFirst.AssemblyInfo.cs
+D:\FileSet\GitLabs\DBMS\CodeFirst\DBFirst\obj\Debug\netcoreapp3.1\DBFirst.csproj.CoreCompileInputs.cache
+D:\FileSet\GitLabs\DBMS\CodeFirst\DBFirst\obj\Debug\netcoreapp3.1\DBFirst.dll
+D:\FileSet\GitLabs\DBMS\CodeFirst\DBFirst\obj\Debug\netcoreapp3.1\DBFirst.pdb
+D:\FileSet\GitLabs\DBMS\CodeFirst\DBFirst\obj\Debug\netcoreapp3.1\DBFirst.genruntimeconfig.cache

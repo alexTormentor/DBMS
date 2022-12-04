@@ -7,9 +7,6 @@ using DbLib;
 
 namespace DB_test
 {
-    /// <summary>
-    /// Тестовая база данных
-    /// </summary>
     public class TestDb : IDb
     {
         private List<Mech> mech;

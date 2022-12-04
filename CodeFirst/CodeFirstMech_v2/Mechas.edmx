@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Хранилище Lab1Model" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <!--Ошибки, обнаруженные при создании:
+предупреждение 6002: В таблице или представлении "Lab1.dbo.Core2" не определен первичный ключ. Ключ был выведен, а определение таблицы или представления было создано в режиме только для чтения.-->
+        <EntityType Name="Core2">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="MechSystem" Type="varchar" MaxLength="50" />
+          <Property Name="Power" Type="int" />
+        </EntityType>
+        <!--Ошибки, обнаруженные при создании:
+предупреждение 6002: В таблице или представлении "Lab1.dbo.Corpus" не определен первичный ключ. Ключ был выведен, а определение таблицы или представления было создано в режиме только для чтения.-->
+        <EntityType Name="Corpus">
+          <Key>
+            <PropertyRef Name="CorpusID" />
+          </Key>
+          <Property Name="CorpusID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Model" Type="varchar" MaxLength="50" />
+          <Property Name="ArmoreType" Type="varchar" MaxLength="50" />
+          <Property Name="WeaponType" Type="varchar" MaxLength="50" />
+          <Property Name="EngineType" Type="varchar" MaxLength="50" />
+          <Property Name="Type" Type="varchar" MaxLength="50" />
+          <Property Name="SerialID" Type="int" />
+        </EntityType>
+        <!--Ошибки, обнаруженные при создании:
+предупреждение 6002: В таблице или представлении "Lab1.dbo.Mecha" не определен первичный ключ. Ключ был выведен, а определение таблицы или представления было создано в режиме только для чтения.-->
+        <EntityType Name="Mecha">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Model" Type="varchar" MaxLength="50" />
+          <Property Name="ArmoreType" Type="varchar" MaxLength="50" />
+          <Property Name="WeaponType" Type="varchar" MaxLength="50" />
+          <Property Name="EngineType" Type="varchar" MaxLength="50" />
+          <Property Name="Type" Type="varchar" MaxLength="50" />
+          <Property Name="SerialID" Type="int" />
+        </EntityType>
+        <!--Ошибки, обнаруженные при создании:
+предупреждение 6013: Первичный ключ в таблице или представлении "Lab1.dbo.Table1" не определен, его не удалось вывести. Эта таблица или представление исключены. Чтобы использовать сущность, необходимо проверить схему, добавить правильные ключи и раскомментировать ее.
+        <EntityType Name="Table1">
+          <Property Name="id" Type="int" />
+          <Property Name="FirstName" Type="varchar" MaxLength="50" />
+          <Property Name="SecondName" Type="varchar" MaxLength="50" />
+          <Property Name="LastName" Type="varchar" MaxLength="50" />
+          <Property Name="phone" Type="varchar" MaxLength="50" />
+        </EntityType>-->
+        <!--Ошибки, обнаруженные при создании:
+предупреждение 6002: В таблице или представлении "Lab1.dbo.Table2" не определен первичный ключ. Ключ был выведен, а определение таблицы или представления было создано в режиме только для чтения.-->
+        <EntityType Name="Table2">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="FirstName" Type="varchar" MaxLength="50" />
+          <Property Name="SecondName" Type="varchar" MaxLength="50" />
+          <Property Name="LastName" Type="varchar" MaxLength="50" />
+          <Property Name="phone" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityContainer Name="Хранилище Lab1ModelContainer">
+          <EntitySet Name="Core2" EntityType="Self.Core2" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [Core2].[Id] AS [Id], 
+    [Core2].[MechSystem] AS [MechSystem], 
+    [Core2].[Power] AS [Power]
+    FROM [dbo].[Core2] AS [Core2]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="Corpus" EntityType="Self.Corpus" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [Corpus].[CorpusID] AS [CorpusID], 
+    [Corpus].[Model] AS [Model], 
+    [Corpus].[ArmoreType] AS [ArmoreType], 
+    [Corpus].[WeaponType] AS [WeaponType], 
+    [Corpus].[EngineType] AS [EngineType], 
+    [Corpus].[Type] AS [Type], 
+    [Corpus].[SerialID] AS [SerialID]
+    FROM [dbo].[Corpus] AS [Corpus]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="Mecha" EntityType="Self.Mecha" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [Mecha].[ID] AS [ID], 
+    [Mecha].[Model] AS [Model], 
+    [Mecha].[ArmoreType] AS [ArmoreType], 
+    [Mecha].[WeaponType] AS [WeaponType], 
+    [Mecha].[EngineType] AS [EngineType], 
+    [Mecha].[Type] AS [Type], 
+    [Mecha].[SerialID] AS [SerialID]
+    FROM [dbo].[Mecha] AS [Mecha]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="Table2" EntityType="Self.Table2" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [Table2].[id] AS [id], 
+    [Table2].[FirstName] AS [FirstName], 
+    [Table2].[SecondName] AS [SecondName], 
+    [Table2].[LastName] AS [LastName], 
+    [Table2].[phone] AS [phone]
+    FROM [dbo].[Table2] AS [Table2]</DefiningQuery>
+          </EntitySet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Lab1Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Core2">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="MechSystem" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Power" Type="Int32" />
+        </EntityType>
+        <EntityType Name="Corpus">
+          <Key>
+            <PropertyRef Name="CorpusID" />
+          </Key>
+          <Property Name="CorpusID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Model" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ArmoreType" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="WeaponType" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="EngineType" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Type" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="SerialID" Type="Int32" />
+        </EntityType>
+        <EntityType Name="Mecha">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Model" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ArmoreType" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="WeaponType" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="EngineType" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Type" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="SerialID" Type="Int32" />
+        </EntityType>
+        <EntityType Name="Table2">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="SecondName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="phone" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityContainer Name="Lab1Entities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Core2" EntityType="Self.Core2" />
+          <EntitySet Name="Corpora" EntityType="Self.Corpus" />
+          <EntitySet Name="Mechas" EntityType="Self.Mecha" />
+          <EntitySet Name="Table2" EntityType="Self.Table2" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Хранилище Lab1ModelContainer" CdmEntityContainer="Lab1Entities">
+          <EntitySetMapping Name="Core2">
+            <EntityTypeMapping TypeName="Lab1Model.Core2">
+              <MappingFragment StoreEntitySet="Core2">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="MechSystem" ColumnName="MechSystem" />
+                <ScalarProperty Name="Power" ColumnName="Power" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Corpora">
+            <EntityTypeMapping TypeName="Lab1Model.Corpus">
+              <MappingFragment StoreEntitySet="Corpus">
+                <ScalarProperty Name="CorpusID" ColumnName="CorpusID" />
+                <ScalarProperty Name="Model" ColumnName="Model" />
+                <ScalarProperty Name="ArmoreType" ColumnName="ArmoreType" />
+                <ScalarProperty Name="WeaponType" ColumnName="WeaponType" />
+                <ScalarProperty Name="EngineType" ColumnName="EngineType" />
+                <ScalarProperty Name="Type" ColumnName="Type" />
+                <ScalarProperty Name="SerialID" ColumnName="SerialID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Mechas">
+            <EntityTypeMapping TypeName="Lab1Model.Mecha">
+              <MappingFragment StoreEntitySet="Mecha">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Model" ColumnName="Model" />
+                <ScalarProperty Name="ArmoreType" ColumnName="ArmoreType" />
+                <ScalarProperty Name="WeaponType" ColumnName="WeaponType" />
+                <ScalarProperty Name="EngineType" ColumnName="EngineType" />
+                <ScalarProperty Name="Type" ColumnName="Type" />
+                <ScalarProperty Name="SerialID" ColumnName="SerialID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Table2">
+            <EntityTypeMapping TypeName="Lab1Model.Table2">
+              <MappingFragment StoreEntitySet="Table2">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="SecondName" ColumnName="SecondName" />
+                <ScalarProperty Name="LastName" ColumnName="LastName" />
+                <ScalarProperty Name="phone" ColumnName="phone" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Нет" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

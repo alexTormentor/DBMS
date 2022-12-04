@@ -8,23 +8,15 @@ using System.Data;
 
 namespace DbLib
 {
-    /// <summary>
-    /// Класс для работы с базой данных
-    /// </summary>
     public class Db : IDb
     {
-        private string connectionString = "Data Source=DESKTOP-NVJTH5L\\SQLEXPRESS;Initial Catalog=Lab1;Integrated Security=True;" +
-                "Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+        private string connectionString = "Data Source=DESKTOP-NVJTH5L\\SQLEXPRESS;Initial Catalog=Lab1;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
         private SqlConnection cnn;
 
         public Db()
         {
             cnn = new SqlConnection(connectionString);
         }
-
-        /// <summary>
-        /// Возвращает список всех людей в базе
-        /// </summary>
         public List<Mech> GetMech()
         {
             cnn.Open();
@@ -84,11 +76,6 @@ namespace DbLib
 
             return core;
         }
-
-        /// <summary>
-        /// Возвращает список заказов
-        /// </summary>
-        /// <returns></returns>
         public List<Corpus> GetCorpus()
         {
             cnn.Open();
@@ -120,10 +107,6 @@ namespace DbLib
             cnn.Close();
             return corpus;
         }
-
-        /// <summary>
-        /// Добавляет новую запись о человеке в базу
-        /// </summary>
         public void AddMech(Mech mech)
         {
             var sql = $"insert into Mecha (Model, ArmoreType, WeaponType, EngineType, Type, SerialID) " +
@@ -131,29 +114,16 @@ namespace DbLib
                 $" N'{mech.EngineType}', N'{mech.Type}', N'{mech.SerialID}')";
             ExecCommand(sql);
         }
-
-        /// <summary>
-        /// Удаляет человека из базы
-        /// </summary>
-        /// <param name="id">ID человека</param>
         public void DeleteMech(int id)
         {
             var sql = $"delete from Mecha where ID = {id}";
             ExecCommand(sql);
         }
-
-        /// <summary>
-        /// Совершает заказ
-        /// </summary>
-        /// <param name="personId">Id покупателя</param>
-        /// <param name="productId">Id товара</param>
         public void Create(int mechId, int coreId)
         {
             var sql = $"EXEC Create {mechId}, {coreId}";
             ExecCommand(sql);
         }
-
-        // Выполняет SQL запроч
         private void ExecCommand(string sql)
         {
             cnn.Open();
