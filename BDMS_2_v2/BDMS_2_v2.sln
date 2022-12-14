@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BDMS_2_v2", "BDMS_2_v2\BDMS_2_v2.csproj", "{DF1AD0F2-C054-45C4-A731-C2BDD79506B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF1AD0F2-C054-45C4-A731-C2BDD79506B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF1AD0F2-C054-45C4-A731-C2BDD79506B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF1AD0F2-C054-45C4-A731-C2BDD79506B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF1AD0F2-C054-45C4-A731-C2BDD79506B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

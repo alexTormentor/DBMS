@@ -49,7 +49,7 @@ namespace CodeFirstMech_v2
             Console.WriteLine("Список объектов:");
             foreach (Mech machine in mechas)
             {
-                Console.WriteLine("{0}.{1} \t {2} \t {3} \t {4} \t {5} \t {6}", machine.ID, machine.Model, machine.Armore, 
+                Console.WriteLine("{0}.{1} \t {2} \t {3} \t {4} \t {5} \t {6} \t {7}", machine.ID, machine.Model, machine.Mark, machine.Armore, 
                     machine.Weapon, machine.Engine, machine.Type, machine.SerialID);
             }
         }
@@ -67,6 +67,9 @@ namespace CodeFirstMech_v2
             string model;
             Console.WriteLine("\nВведите модель\n->");
             model = Console.ReadLine();
+            string mark;
+            Console.WriteLine("\nВведите Mark\n->");
+            mark = Console.ReadLine();
             string armore;
             Console.WriteLine("\nВведите тип брони\n->");
             armore = Console.ReadLine();
@@ -81,7 +84,7 @@ namespace CodeFirstMech_v2
             type = Console.ReadLine();
             Console.WriteLine("\nВведите серию\n->");
             int serial = Convert.ToInt32(Console.ReadLine());
-            mech = new Mech { Model = model, Armore = armore, Weapon = weapon, Engine = engine, Type = type, SerialID = serial };
+            mech = new Mech { Model = model, Mark = mark, Armore = armore, Weapon = weapon, Engine = engine, Type = type, SerialID = serial };
         }
 
 

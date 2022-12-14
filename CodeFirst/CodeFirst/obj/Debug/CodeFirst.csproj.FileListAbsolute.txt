@@ -10,3 +10,4 @@ D:\FileSet\GitLabs\DBMS\CodeFirst\CodeFirst\obj\Debug\CodeFirst.csproj.CoreCompi
 D:\FileSet\GitLabs\DBMS\CodeFirst\CodeFirst\obj\Debug\CodeFirst.csproj.CopyComplete
 D:\FileSet\GitLabs\DBMS\CodeFirst\CodeFirst\obj\Debug\CodeFirst.exe
 D:\FileSet\GitLabs\DBMS\CodeFirst\CodeFirst\obj\Debug\CodeFirst.pdb
+D:\FileSet\GitLabs\DBMS\CodeFirst\CodeFirst\obj\Debug\CodeFirst.csproj.SuggestedBindingRedirects.cache

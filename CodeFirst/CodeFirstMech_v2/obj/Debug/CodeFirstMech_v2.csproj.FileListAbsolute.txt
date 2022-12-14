@@ -113,3 +113,6 @@ D:\FileSet\GitLabs\DBMS\CodeFirst\CodeFirstMech_v2\bin\Debug\pt-BR\Microsoft.Dat
 D:\FileSet\GitLabs\DBMS\CodeFirst\CodeFirstMech_v2\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
 D:\FileSet\GitLabs\DBMS\CodeFirst\CodeFirstMech_v2\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
 D:\FileSet\GitLabs\DBMS\CodeFirst\CodeFirstMech_v2\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\FileSet\GitLabs\DBMS\CodeFirst\CodeFirstMech_v2\bin\Debug\Microsoft.EntityFrameworkCore.Relational.Design.dll
+D:\FileSet\GitLabs\DBMS\CodeFirst\CodeFirstMech_v2\bin\Debug\Microsoft.EntityFrameworkCore.Relational.Design.xml
+D:\FileSet\GitLabs\DBMS\CodeFirst\CodeFirstMech_v2\obj\Debug\CodeFirstMech_v2.csproj.SuggestedBindingRedirects.cache

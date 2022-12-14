@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBMS_1", "DBMS_1\DBMS_1.csproj", "{A449011A-0858-4B61-BEA9-F6F1CBB01A0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbLib", "DbLib\DbLib.csproj", "{6C558739-344C-4900-9B7E-FE13D5058913}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbConsole", "DbConsole\DbConsole.csproj", "{3E3E25C6-D473-4906-85BE-92172FE9A7B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DB_test", "DB_test\DB_test.csproj", "{55A77A4D-250C-4491-951D-ED031C5442DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A449011A-0858-4B61-BEA9-F6F1CBB01A0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A449011A-0858-4B61-BEA9-F6F1CBB01A0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A449011A-0858-4B61-BEA9-F6F1CBB01A0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A449011A-0858-4B61-BEA9-F6F1CBB01A0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C558739-344C-4900-9B7E-FE13D5058913}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C558739-344C-4900-9B7E-FE13D5058913}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C558739-344C-4900-9B7E-FE13D5058913}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C558739-344C-4900-9B7E-FE13D5058913}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E3E25C6-D473-4906-85BE-92172FE9A7B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E3E25C6-D473-4906-85BE-92172FE9A7B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E3E25C6-D473-4906-85BE-92172FE9A7B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E3E25C6-D473-4906-85BE-92172FE9A7B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55A77A4D-250C-4491-951D-ED031C5442DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55A77A4D-250C-4491-951D-ED031C5442DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55A77A4D-250C-4491-951D-ED031C5442DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55A77A4D-250C-4491-951D-ED031C5442DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
