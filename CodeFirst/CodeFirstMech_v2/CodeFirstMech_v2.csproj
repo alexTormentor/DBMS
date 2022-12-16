@@ -367,9 +367,13 @@
     <Compile Include="Meches.cs" />
     <Compile Include="MechNew.cs" />
     <Compile Include="MigrationHistory.cs" />
-    <Compile Include="Migrations\20221214172314_AddMarkMigration.cs" />
-    <Compile Include="Migrations\20221214172314_AddMarkMigration.designer.cs">
-      <DependentUpon>20221214172314_AddMarkMigration.cs</DependentUpon>
+    <Compile Include="Migrations\20221214192754_AddMark.cs" />
+    <Compile Include="Migrations\20221214192754_AddMark.designer.cs">
+      <DependentUpon>20221214192754_AddMark.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20221214200607_AddForOt4et.cs" />
+    <Compile Include="Migrations\20221214200607_AddForOt4et.designer.cs">
+      <DependentUpon>20221214200607_AddForOt4et.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\MechConnectionContextModelSnapshot.cs" />
     <Compile Include="Program.cs" />

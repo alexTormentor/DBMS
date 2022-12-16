@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Algorithms" Version="0.1.2-alpha" />
+      <PackageReference Include="EntityFramework" Version="6.4.4" />
+      <PackageReference Include="EntityFramework.CodeFirstStoreFunctions" Version="1.2.0" />
+      <PackageReference Include="EntityFramework.Extended" Version="6.1.0.168" />
+      <PackageReference Include="EntityFrameworkCore.SqlServer.HierarchyId" Version="4.0.0" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.1" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.1" />
+      <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+      <PackageReference Include="System.Security.Cryptography.Algorithms" Version="4.3.1" />
+    </ItemGroup>
+
+</Project>

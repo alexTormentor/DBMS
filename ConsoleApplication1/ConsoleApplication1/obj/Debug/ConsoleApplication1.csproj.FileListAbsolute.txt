@@ -1,0 +1,13 @@
+D:\FileSet\GitLabs\DBMS\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+D:\FileSet\GitLabs\DBMS\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\FileSet\GitLabs\DBMS\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\FileSet\GitLabs\DBMS\ConsoleApplication1\ConsoleApplication1\bin\Debug\EntityFramework.dll
+D:\FileSet\GitLabs\DBMS\ConsoleApplication1\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.dll
+D:\FileSet\GitLabs\DBMS\ConsoleApplication1\ConsoleApplication1\bin\Debug\EntityFramework.xml
+D:\FileSet\GitLabs\DBMS\ConsoleApplication1\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.xml
+D:\FileSet\GitLabs\DBMS\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csproj.AssemblyReference.cache
+D:\FileSet\GitLabs\DBMS\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csproj.SuggestedBindingRedirects.cache
+D:\FileSet\GitLabs\DBMS\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csproj.CoreCompileInputs.cache
+D:\FileSet\GitLabs\DBMS\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csproj.CopyComplete
+D:\FileSet\GitLabs\DBMS\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\FileSet\GitLabs\DBMS\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
